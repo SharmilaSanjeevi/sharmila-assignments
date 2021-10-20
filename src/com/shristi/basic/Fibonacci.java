@@ -17,6 +17,7 @@ public class Fibonacci {
             System.out.println(s);
             for(int i=3;i<n;i++)
             {
+                
                 t=f+s;
                 System.out.println(t);
                 f=s;

@@ -13,14 +13,15 @@ public class PerfectNumber {
 		n = scanner.nextInt();
 		for (int i = 1; i < n; i++) {
 			if (n % i == 0) {
-				sum = sum + i;     // or sum+ = i;
+				sum = sum + i; // or sum+ = i;
 			}
 		}
 		if (sum == n) {
-			System.out.println(+ n + " is a Perfect Number");
+			System.out.println(+n + " is a Perfect Number");
 		} else {
-			System.out.println(+ n + " is Not a Perfect Number");
+			System.out.println(+n + " is Not a Perfect Number");
 		}
+		scanner.close();
 
 	}
 

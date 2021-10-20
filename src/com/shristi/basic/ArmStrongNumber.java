@@ -35,6 +35,7 @@ public class ArmStrongNumber {
 
 			sum = sum + productOfNumber;
 		}
+
 		// System.out.println(sum);
 
 		if (sum == Integer.parseInt(number)) {
@@ -43,6 +44,8 @@ public class ArmStrongNumber {
 		} else {
 			System.out.println("Not a Armstrong Number ");
 		}
+
+		scanner.close();
 
 	}
 

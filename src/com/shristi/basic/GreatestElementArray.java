@@ -33,6 +33,8 @@ public class GreatestElementArray {
 
 		System.out.println("Largest element  in an array: " + max);
 
+		scanner.close();
+
 	}
 
 }

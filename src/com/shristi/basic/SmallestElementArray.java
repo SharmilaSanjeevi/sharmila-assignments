@@ -9,9 +9,9 @@ public class SmallestElementArray {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter no of elements you want in an array : ");
 		int n = scanner.nextInt();
-		
+
 		// Initialize array
-		int[] arr = new int[3];
+		int[] arr = new int[n];
 
 		System.out.println("Enter values : ");
 
@@ -33,6 +33,8 @@ public class SmallestElementArray {
 		}
 
 		System.out.println("Smallest element  in  array: " + max);
+
+		scanner.close();
 
 	}
 

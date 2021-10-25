@@ -32,7 +32,7 @@ public class OverloadMain {
 
 		if (designation.equals("Manager")) {
 
-			Double bonus = Manager.calcBonus(basicAllowance);
+			Double bonus = Manager.calcBonus(basicAllowance, carAllowance);
 			System.out.println(bonus);
 
 		}
